@@ -79,7 +79,7 @@ BOARD_BOOTIMAGE_PARTITION_SIZE := 104857600
 
 # Dynamic Partition
 BOARD_SUPER_PARTITION_SIZE := 9126805504 # TODO: Fix hardcoded value
-BOARD_SUPER_PARTITION_GROUPS := nubia_dynamic_partitions
+BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
 BOARD_NUBIA_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := system system_ext product vendor odm
 
