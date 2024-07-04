@@ -5,6 +5,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_NX721J.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_PQ83A01.mk
 
-COMMON_LUNCH_CHOICES := twrp_NX721J-eng
+COMMON_LUNCH_CHOICES := \
+    twrp_PQ83A01-user \
+    twrp_PQ83A01-userdebug \
+    twrp_PQ83A01-eng
+
