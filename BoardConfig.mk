@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/nubia/NX721J
+DEVICE_PATH := device/nubia/nx721j
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -24,7 +24,7 @@ ENABLE_SCHEDBOOST := true
 
 # Bootloader
 PRODUCT_PLATFORM := pineapple
-TARGET_BOOTLOADER_BOARD_NAME := NX721J
+TARGET_BOOTLOADER_BOARD_NAME := nx721j
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -163,5 +163,5 @@ TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko qti_battery_charger.ko"
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone35/temp"
 TW_BATTERY_SYSFS_WAIT_SECONDS := 6
 TW_BACKUP_EXCLUSIONS := /data/fonts
-TW_DEVICE_VERSION := NX721J
+TW_DEVICE_VERSION := nx721j
 TW_NO_HAPTICS := true
