@@ -21,11 +21,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.pineapple
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.pineapple \
-    libgptutils \
-    libz \
-    libcutils
+PRODUCT_PACKAGES += \
+    bootctrl.nubia_sm8650.recovery \
+    android.hardware.boot@1.2-impl-qti.recovery \
+    qcom_decrypt \
+    qcom_decrypt_fbe
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
