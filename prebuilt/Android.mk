@@ -11,3 +11,4 @@ include $(CLEAR_VARS)
         echo "calling depmod on magicos_prebuilt"; \
         $(DEPMOD) -b $(TARGET_RECOVERY_ROOT_OUT)/vendor 1.1;
 include $(BUILD_PHONY_PACKAGE)
+
