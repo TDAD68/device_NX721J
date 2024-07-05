@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
     bootctrl.pineapple
 
 PRODUCT_PACKAGES += \
-    bootctrl.nubia_sm8650.recovery \
+    bootctrl.pineapple.recovery \
     android.hardware.boot@1.2-impl-qti.recovery \
     qcom_decrypt \
     qcom_decrypt_fbe
