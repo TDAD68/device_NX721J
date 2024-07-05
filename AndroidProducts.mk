@@ -8,7 +8,5 @@
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_NX721J.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_NX721J-user \
-    twrp_NX721J-userdebug \
     twrp_NX721J-eng
 
