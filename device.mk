@@ -37,8 +37,11 @@ PRODUCT_TARGET_VNDK_VERSION := 34
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+#Otacert
+#PRODUCT_EXTRA_RECOVERY_KEYS =+ $(DEVICE_PATH)/security/otacert
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 TWRP_REQUIRED_MODULES += \
-    magicos_prebuilt
+    myos_prebuilt
